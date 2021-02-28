@@ -17,8 +17,8 @@ class Ant {
     std::pair<int,int> ant_place;
 
   public:
-    Ant(); //default -> at the middle
-    Ant(int x, int y); //by parametre -> ant at the coordinates (x,y)
+    Ant(); 
+    Ant(int x, int y); 
     ~Ant();
     char Get_Ant_Form();
     void Set_Ant_Form(char form);
